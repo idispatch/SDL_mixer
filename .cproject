@@ -29,13 +29,18 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.1956921747" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.security.401201978" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.270900962" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 									<listOptionValue builtIn="false" value="_DEBUG"/>
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
+									<listOptionValue builtIn="false" value="MP3_MUSIC"/>
+									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
-									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.953938757" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -86,11 +91,16 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.1168200102" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.security.1601490199" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1930427720" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
+									<listOptionValue builtIn="false" value="MP3_MUSIC"/>
+									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.pie.1400214712" name="Position Independent Executable (-fPIE)" superClass="com.qnx.qcc.option.compiler.pie" value="true" valueType="boolean"/>
