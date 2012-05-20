@@ -38,7 +38,6 @@
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 									<listOptionValue builtIn="false" value="_DEBUG"/>
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
-									<listOptionValue builtIn="false" value="MP3_MUSIC"/>
 									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
 								</option>
@@ -99,7 +98,6 @@
 								<option id="com.qnx.qcc.option.compiler.defines.1930427720" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
-									<listOptionValue builtIn="false" value="MP3_MUSIC"/>
 									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
 								</option>
@@ -134,18 +132,21 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="SDLMixer.null.2044826745" name="SDLMixer"/>
 	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/SDLMixer"/>
+	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.coverage.324164819">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.release.152493299">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.debug.1556671381">
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.coverage.324164819">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.coverage.1435097051">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.debug.1556671381">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.profile.205161219">
@@ -157,8 +158,5 @@
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.profile.491105830">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
-	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/SDLMixer"/>
 	</storageModule>
 </cproject>
