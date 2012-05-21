@@ -28,6 +28,7 @@
 								<option id="com.qnx.qcc.option.compile.debug.1101110518" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.includePath.1956921747" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/playbook}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
@@ -40,6 +41,7 @@
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
 									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
+									<listOptionValue builtIn="false" value="MOD_MUSIC"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.953938757" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -89,6 +91,7 @@
 								<option id="com.qnx.qcc.option.compiler.optlevel.1229654772" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
 								<option id="com.qnx.qcc.option.compiler.includePath.1168200102" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/playbook}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
@@ -100,6 +103,7 @@
 									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
 									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
 									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
+									<listOptionValue builtIn="false" value="MOD_MUSIC"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.pie.1400214712" name="Position Independent Executable (-fPIE)" superClass="com.qnx.qcc.option.compiler.pie" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.qccoptions.1381875012" name="QCC Options" superClass="com.qnx.qcc.option.compiler.qccoptions" valueType="stringList">
