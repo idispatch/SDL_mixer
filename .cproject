@@ -28,11 +28,11 @@
 								<option id="com.qnx.qcc.option.compile.debug.1101110518" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.includePath.1956921747" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/playbook}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/qnx}&quot;"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.security.401201978" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.270900962" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
@@ -91,11 +91,11 @@
 								<option id="com.qnx.qcc.option.compiler.optlevel.1229654772" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
 								<option id="com.qnx.qcc.option.compiler.includePath.1168200102" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/playbook}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/qnx}&quot;"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.security.1601490199" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1930427720" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
