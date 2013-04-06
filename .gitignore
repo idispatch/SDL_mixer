@@ -1,5 +1,9 @@
-.DS_Store
-.settings
-Device-Release
 Device-Debug
-
+Device-Release
+Simulator-Debug
+.settings
+*.o
+*.so
+*.a
+*.pinfo
+.DS_Store

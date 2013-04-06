@@ -3,164 +3,79 @@
 
 <cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="com.qnx.qcc.configuration.staticLib.debug.980260846">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.configuration.staticLib.debug.980260846" moduleId="org.eclipse.cdt.core.settings" name="Device-Debug">
-				<externalSettings>
-					<externalSetting>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/SDLMixer/Device-Debug"/>
-						<entry flags="" kind="libraryFile" name="SDLMixer"/>
-					</externalSetting>
-				</externalSettings>
+		<cconfiguration id="org.eclipse.cdt.core.default.config.660855788">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.660855788" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
 				<extensions>
 					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" description="" id="com.qnx.qcc.configuration.staticLib.debug.980260846" name="Device-Debug" parent="com.qnx.qcc.configuration.staticLib.debug">
-					<folderInfo id="com.qnx.qcc.configuration.staticLib.debug.980260846." name="/" resourcePath="">
-						<toolChain id="com.qnx.qcc.toolChain.staticLib.debug.2090387970" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
-							<option id="com.qnx.qcc.option.cpu.896439846" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.armle-v7" valueType="enumerated"/>
-							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1166437606" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/SDLMixer/Device-Debug}" id="com.qnx.nto.1172543476" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
-							<tool id="com.qnx.qcc.tool.compiler.686739525" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
-								<option id="com.qnx.qcc.option.compiler.optlevel.933721962" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
-								<option id="com.qnx.qcc.option.compile.debug.1101110518" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.includePath.1956921747" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
-									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/qnx}&quot;"/>
-								</option>
-								<option id="com.qnx.qcc.option.compiler.security.401201978" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.defines.270900962" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
-									<listOptionValue builtIn="false" value="_DEBUG"/>
-									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
-									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
-									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
-									<listOptionValue builtIn="false" value="MOD_MUSIC"/>
-								</option>
-								<inputType id="com.qnx.qcc.inputType.compiler.953938757" superClass="com.qnx.qcc.inputType.compiler"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.assembler.770225144" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
-								<option id="com.qnx.qcc.option.assembler.debug.1897842657" name="Debug (-g)" superClass="com.qnx.qcc.option.assembler.debug" value="true" valueType="boolean"/>
-								<inputType id="com.qnx.qcc.inputType.assembler.1337683748" superClass="com.qnx.qcc.inputType.assembler"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.linker.500911319" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
-								<option id="com.qnx.qcc.option.linker.debug.911597051" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.libraryPaths.2015425062" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/lib"/>
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
-								</option>
-								<option id="com.qnx.qcc.option.linker.security.2115002268" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.archiver.733042700" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
-						</toolChain>
-					</folderInfo>
-					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-					</sourceEntries>
-				</configuration>
-			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-		</cconfiguration>
-		<cconfiguration id="com.qnx.qcc.configuration.staticLib.release.152493299">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.configuration.staticLib.release.152493299" moduleId="org.eclipse.cdt.core.settings" name="Device-Release">
-				<externalSettings>
-					<externalSetting>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/SDLMixer/Device-Release"/>
-						<entry flags="" kind="libraryFile" name="SDLMixer"/>
-					</externalSetting>
-				</externalSettings>
-				<extensions>
-					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" description="" id="com.qnx.qcc.configuration.staticLib.release.152493299" name="Device-Release" parent="com.qnx.qcc.configuration.staticLib.release">
-					<folderInfo id="com.qnx.qcc.configuration.staticLib.release.152493299." name="/" resourcePath="">
-						<toolChain id="com.qnx.qcc.toolChain.staticLib.release.704914871" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
-							<option id="com.qnx.qcc.option.cpu.388122999" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.armle-v7" valueType="enumerated"/>
-							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.1242907131" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/SDLMixer/Device-Release}" id="com.qnx.nto.1247621396" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
-							<tool id="com.qnx.qcc.tool.compiler.975192653" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
-								<option id="com.qnx.qcc.option.compiler.optlevel.1229654772" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
-								<option id="com.qnx.qcc.option.compiler.includePath.1168200102" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SDL12/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/vorbis/include}&quot;"/>
-									<listOptionValue builtIn="false" value="/Users/okosenkov/Documents/Projects/opensource/git/OggVorbis/ogg/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smpeg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mikmod/qnx}&quot;"/>
-								</option>
-								<option id="com.qnx.qcc.option.compiler.security.1601490199" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.defines.1930427720" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
-									<listOptionValue builtIn="false" value="__PLAYBOOK__"/>
-									<listOptionValue builtIn="false" value="OGG_MUSIC"/>
-									<listOptionValue builtIn="false" value="WAV_MUSIC"/>
-									<listOptionValue builtIn="false" value="MOD_MUSIC"/>
-								</option>
-								<option id="com.qnx.qcc.option.compiler.pie.1400214712" name="Position Independent Executable (-fPIE)" superClass="com.qnx.qcc.option.compiler.pie" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.qccoptions.1381875012" name="QCC Options" superClass="com.qnx.qcc.option.compiler.qccoptions" valueType="stringList">
-									<listOptionValue builtIn="false" value="-frecord-gcc-switches"/>
-								</option>
-								<inputType id="com.qnx.qcc.inputType.compiler.909472691" superClass="com.qnx.qcc.inputType.compiler"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.assembler.977032908" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
-								<inputType id="com.qnx.qcc.inputType.assembler.383436764" superClass="com.qnx.qcc.inputType.assembler"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.linker.1274163699" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
-								<option id="com.qnx.qcc.option.linker.libraryPaths.649094881" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/lib"/>
-									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
-								</option>
-								<option id="com.qnx.qcc.option.linker.security.1378682663" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.pie.24155595" name="Position Independent Executable (-pie)" superClass="com.qnx.qcc.option.linker.pie" value="true" valueType="boolean"/>
-							</tool>
-							<tool id="com.qnx.qcc.tool.archiver.1444582668" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver"/>
-						</toolChain>
-					</folderInfo>
-					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-					</sourceEntries>
-				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
-	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="SDLMixer.null.2044826745" name="SDLMixer"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry kind="src" path=""/>
+		<pathentry kind="out" path=""/>
+		<pathentry kind="con" path="com.qnx.tools.ide.qde.QDE_PROJECT_CONTAINER"/>
 	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/SDLMixer"/>
-	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.release.152493299">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.coverage.324164819">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.coverage.1435097051">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.debug.1556671381">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.profile.205161219">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.debug.980260846">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.staticLib.profile.491105830">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
-		</scannerConfigBuildInfo>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="all" path="arm/so-le-v7-g" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="build" path="" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="clean" path="" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="rebuild" path="" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="all" path="arm/a-le-v7" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="all" path="arm/so-le-v7" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="all" path="arm/a-le-v7-g" targetID="com.qnx.tools.ide.qde.core.cbuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
 	</storageModule>
 </cproject>
