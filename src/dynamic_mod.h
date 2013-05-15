@@ -21,7 +21,7 @@
 
 #ifdef MOD_MUSIC
 
-#include "mikmod.h"
+#include <mikmod.h>
 
 typedef struct {
 	int loaded;

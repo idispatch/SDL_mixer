@@ -118,7 +118,7 @@ SDL_AudioSpec *Mix_LoadAIFF_RW (SDL_RWops *src, int freesrc,
 		goto done;
 	}
 
-	/* TODO: Better santity-checking. */
+	/* TODO: Better sanity-checking. */
 
 	found_SSND = 0;
 	found_COMM = 0;
@@ -138,6 +138,7 @@ SDL_AudioSpec *Mix_LoadAIFF_RW (SDL_RWops *src, int freesrc,
 				found_SSND	= 1;
 				offset		= SDL_ReadBE32(src);
 				blocksize	= SDL_ReadBE32(src);
+				((void)(blocksize));
 				start		= SDL_RWtell(src) + offset;
 				break;
 

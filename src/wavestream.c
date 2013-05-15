@@ -300,6 +300,7 @@ static SDL_RWops *LoadWAVStream (SDL_RWops *src, SDL_AudioSpec *spec,
 	/* Check the magic header */
 	RIFFchunk	= SDL_ReadLE32(src);
 	wavelen		= SDL_ReadLE32(src);
+	((void)(wavelen));
 	WAVEmagic	= SDL_ReadLE32(src);
 	if ( (RIFFchunk != RIFF) || (WAVEmagic != WAVE) ) {
 		Mix_SetError("Unrecognized file type (not WAVE)");
@@ -462,7 +463,8 @@ static SDL_RWops *LoadAIFFStream (SDL_RWops *src, SDL_AudioSpec *spec,
 		case SSND:
 		    found_SSND		= 1;
 		    offset		= SDL_ReadBE32(src);
-		    blocksize		= SDL_ReadBE32(src);
+		    blocksize	= SDL_ReadBE32(src);
+		    ((void)(blocksize));
 		    *start		= SDL_RWtell(src) + offset;
 		    break;
 
@@ -508,7 +510,7 @@ static SDL_RWops *LoadAIFFStream (SDL_RWops *src, SDL_AudioSpec *spec,
 			spec->format = AUDIO_S16MSB;
 			break;
 		default:
-			Mix_SetError("Unknown samplesize in data format");
+			Mix_SetError("Unknown sample size in data format");
 			was_error = 1;
 			goto done;
 	}

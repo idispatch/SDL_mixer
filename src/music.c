@@ -31,6 +31,8 @@
 
 #include "SDL_mixer.h"
 
+#pragma GCC diagnostic ignored "-Wunused-label"
+
 #ifdef CMD_MUSIC
 #include "music_cmd.h"
 #endif
@@ -808,7 +810,7 @@ void Mix_FreeMusic(Mix_Music *music) {
             break;
         }
 
-        skip:
+    skip:
         SDL_free(music);
     }
 }
@@ -1408,7 +1410,8 @@ static int music_internal_playing() {
         break;
     }
 
-    skip: return (playing);
+skip:
+	return (playing);
 }
 int Mix_PlayingMusic(void) {
     int playing = 0;
