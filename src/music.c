@@ -31,7 +31,9 @@
 
 #include "SDL_mixer.h"
 
+#ifdef __GNUC__
 #pragma GCC diagnostic ignored "-Wunused-label"
+#endif
 
 #ifdef CMD_MUSIC
 #include "music_cmd.h"
