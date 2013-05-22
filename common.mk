@@ -12,7 +12,7 @@ PINFO DESCRIPTION = SDL_mixer
 endef
 
 USEFILE=
-
+NAME=SDL_mixer
 SDL_INCPATH = $(PROJECT_ROOT)/../SDL/include
 MIKMOD_INCPATH = $(PROJECT_ROOT)/../libmikmod/qnx
 MODPLUG_INCPATH = $(PROJECT_ROOT)/../libmodplug/src
